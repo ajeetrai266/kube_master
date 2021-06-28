@@ -28,10 +28,10 @@ none
 Example Playbook
 ----------------
 
-Playbook for kubernetes_master
-    - hosts: tag_Name_of_managed_node
-      roles:
-         - kubernetes_master
+Playbook for kubernetes_master  
+    - hosts: tag_Name_of_managed_node\
+      &nbsp; roles:\
+       &nbsp;  &nbsp;   - kubernetes_master
 
 License
 -------
